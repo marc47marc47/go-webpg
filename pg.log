@@ -1,0 +1,17 @@
+waiting for server to start....2021-05-13 16:27:43.549 CST [20732] LOG:  starting PostgreSQL 13.2 on x86_64-apple-darwin20.3.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-05-13 16:27:43.550 CST [20732] LOG:  listening on IPv6 address "::1", port 5432
+2021-05-13 16:27:43.550 CST [20732] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-05-13 16:27:43.552 CST [20732] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-05-13 16:27:43.557 CST [20733] LOG:  database system was shut down at 2021-05-13 16:27:42 CST
+2021-05-13 16:27:43.560 CST [20732] LOG:  database system is ready to accept connections
+ done
+server started
+2021-05-13 16:32:50.155 CST [20734] PANIC:  could not open file "/Users/marc47/golang/GoWeb-PostgreSQL/./data/global/pg_control": No such file or directory
+2021-05-13 16:32:50.156 CST [20732] LOG:  checkpointer process (PID 20734) was terminated by signal 6: Abort trap: 6
+2021-05-13 16:32:50.156 CST [20732] LOG:  terminating any other active server processes
+2021-05-13 16:32:50.156 CST [20737] WARNING:  terminating connection because of crash of another server process
+2021-05-13 16:32:50.156 CST [20737] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-05-13 16:32:50.156 CST [20737] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-05-13 16:32:50.159 CST [20732] LOG:  all server processes terminated; reinitializing
+2021-05-13 16:32:50.163 CST [20732] FATAL:  could not stat data directory "/Users/marc47/golang/GoWeb-PostgreSQL/./data": No such file or directory
+2021-05-13 16:32:50.164 CST [20732] LOG:  database system is shut down

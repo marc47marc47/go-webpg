@@ -1,0 +1,4 @@
+PGDATABASE=peopleDatabase
+PGPORT=5432
+PGHOST=localhost
+export PGDATABASE PGPORT PGHOST
